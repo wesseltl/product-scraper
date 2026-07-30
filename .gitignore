@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# keep products.csv — it's the sample output that shows the deliverable works
+
+# OS / editor
+.DS_Store
+*.swp
