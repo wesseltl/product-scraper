@@ -33,7 +33,7 @@ Only dependency is `requests`; HTML parsing uses the Python standard library, so
 - **Paging**: walks every catalog page automatically and stops on its own at the end.
 - **Retries**: transient network/server errors are retried with backoff instead of crashing a long run.
 - **Polite**: sends a proper User-Agent and pauses between pages so it never overloads the site.
-- **Robust extraction**: tolerant of currency symbols and minor markup quirks.
+- **Tolerant extraction**: handles currency symbols and minor markup quirks.
 
 ## Adapting it to another site
 
